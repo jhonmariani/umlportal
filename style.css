@@ -15,7 +15,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     text-align: center;
-    width: 300px;
 }
 
 h1 {
@@ -51,3 +50,45 @@ button:hover {
     background-color: #3498db;
 }
 
+/* Estilos para o portal do aluno */
+.portal-container {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+
+.sidebar {
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+    color: white;
+    text-align: left;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+    width: 600px;
+}
