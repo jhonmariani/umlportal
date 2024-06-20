@@ -47,7 +47,7 @@
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     background-color: #3498db;
 }
 
@@ -103,8 +103,8 @@ button:hover {
     padding: 0;
     margin: 0;
     position: absolute;
-    left: 0;
-    top: 100%;
+    left: 100%; /* Posiciona o submenu à direita do menu principal */
+    top: 0;
     width: 200px;
     z-index: 1;
 }
