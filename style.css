@@ -99,7 +99,7 @@
     padding: 0;
     margin: 0;
     position: absolute;
-    left: 70%; /* Posiciona o submenu à direita do menu principal */
+    left: 40%; /* Posiciona o submenu à direita do menu principal */
     top: 0;
     width: 200px;
     z-index: 1;
