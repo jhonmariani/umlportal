@@ -54,17 +54,19 @@
 /* Estilos para o portal do aluno */
 .portal-container {
     display: flex;
+    flex-direction: column;
     width: 800px;
     background-color: #ecf0f1;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 .sidebar {
     background-color: #34495e;
     padding: 20px;
-    width: 200px;
     color: white;
+    margin-top: 20px;
 }
 
 .sidebar h2 {
@@ -89,12 +91,6 @@
 .sidebar ul li a:hover {
     text-decoration: underline;
 }
-
-.content {
-    padding: 20px;
-    flex: 1;
-}
-
 /* Estilos para dropdown */
 .dropdown-content {
     display: none;
