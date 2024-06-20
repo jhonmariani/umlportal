@@ -10,8 +10,10 @@
     border-radius: 5px;
     Display:flex;
     width:300px;
-    Justify-content;
-    Margin:auto;
+    justify-content;
+    margen top:300px;
+    margen left:588px;
+    
 }
 
 .h1 {
