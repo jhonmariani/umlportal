@@ -1,3 +1,4 @@
+// Função para verificar o login
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault();
     
@@ -11,3 +12,10 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         alert('Usuário ou senha incorretos');
     }
 });
+
+// Função para alternar a exibição do dropdown
+function toggleDropdown(event) {
+    event.preventDefault();
+    const parent = event.target.parentElement;
+    parent.classList.toggle('active');
+}
