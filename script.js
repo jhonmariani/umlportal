@@ -11,3 +11,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         alert('Usuário ou senha incorretos');
     }
 });
+
+function toggleDropdown(event) {
+    event.preventDefault();
+    const parent = event.target.parentElement;
+    parent.classList.toggle('active');
+}
