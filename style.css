@@ -50,6 +50,7 @@
 button:hover {
     background-color: #3498db;
 }
+
 /* Estilos para o portal do aluno */
 .portal-container {
     display: flex;
